@@ -1,0 +1,22 @@
+@import './Coming-soon-/components/base';
+@import './Coming-soon-/components/hero-section';
+
+
+
+main{
+    height: 100vh;
+    header{
+        .logo{
+            width:100px;
+            margin:2rem;
+            cursor: pointer;
+        }
+    }
+}
+
+
+footer .attribution{
+    display: none;
+    
+}
+

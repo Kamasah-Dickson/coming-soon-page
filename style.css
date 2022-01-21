@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  background: linear-gradient(white, #fff5f5);
+}
+
+.hero-section .desktop-img {
+  display: none;
+  width: 100%;
+}
+.hero-section .mobile-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: -0.4rem;
+}
+.hero-section .coming-soon {
+  margin-top: 3.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(white, #fff5f5);
+}
+.hero-section .coming-soon h1 {
+  font-size: 3.5rem;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  max-width: 280px;
+  line-height: 55px;
+  font-weight: 600;
+  margin-bottom: 1.3rem;
+  text-align: center;
+}
+.hero-section .coming-soon h1 span {
+  color: #ce9797;
+  font-weight: 300;
+  font-size: 3rem;
+}
+.hero-section .coming-soon p {
+  max-width: 360px;
+  font-size: 1.2rem;
+  margin-bottom: 2.3rem;
+  color: #ce9797;
+  line-height: 25px;
+  font-weight: 300;
+  text-align: center;
+}
+.hero-section .coming-soon .input-wrapper {
+  display: flex;
+  width: 83%;
+  position: relative;
+  margin-bottom: 1rem;
+}
+.hero-section .coming-soon .input-wrapper input {
+  padding: 0.9rem;
+  border-radius: 25px;
+  border: 1px solid #ce9797;
+  width: 100%;
+  outline: none;
+}
+.hero-section .coming-soon .input-wrapper input::-moz-placeholder {
+  font-size: 1rem;
+  color: #ce9797;
+  font-weight: 400;
+}
+.hero-section .coming-soon .input-wrapper input:-ms-input-placeholder {
+  font-size: 1rem;
+  color: #ce9797;
+  font-weight: 400;
+}
+.hero-section .coming-soon .input-wrapper input::placeholder {
+  font-size: 1rem;
+  color: #ce9797;
+  font-weight: 400;
+}
+.hero-section .coming-soon .input-wrapper button {
+  position: absolute;
+  height: 100%;
+  padding: 0 2rem;
+  right: -1rem;
+  border-radius: 25px;
+  border: none;
+  background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  transition: 0.3s ease;
+}
+.hero-section .coming-soon .input-wrapper button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+  box-shadow: 0px 2px 20px 0px #ce9797;
+}
+
+@media screen and (min-width: 760px) {
+  .main .logo {
+    margin-left: 4.5rem;
+    width: 150px;
+    margin-top: 3rem;
+  }
+
+  .hero-section .desktop-img {
+    display: block;
+    width: 47%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-left: 2rem;
+  }
+  .hero-section .mobile-img {
+    display: none;
+  }
+  .hero-section .container {
+    margin-left: 4.5rem;
+    padding-right: 3rem;
+  }
+  .hero-section .container .coming-soon {
+    margin-top: 6rem;
+    align-items: flex-start;
+    text-align: left;
+    background: linear-gradient(white, #fff5f5);
+  }
+  .hero-section .container .coming-soon h1 {
+    font-size: 4rem;
+    letter-spacing: 10px;
+    line-height: 65px;
+    font-weight: 600;
+    text-align: left;
+  }
+  .hero-section .container .coming-soon h1 span {
+    font-weight: 300;
+    text-align: center;
+    font-size: 3rem;
+  }
+  .hero-section .container .coming-soon p {
+    max-width: 375px;
+    font-size: 1.2rem;
+    text-align: left;
+  }
+  .hero-section .container .coming-soon .input-wrapper {
+    width: 35%;
+    position: relative;
+  }
+  .hero-section .container .coming-soon .input-wrapper input {
+    padding: 1rem;
+    border-radius: 25px;
+    border: 1px solid #ce9797;
+    width: 100%;
+  }
+  .hero-section .container .coming-soon .input-wrapper input::-moz-placeholder {
+    font-size: 1rem;
+  }
+  .hero-section .container .coming-soon .input-wrapper input:-ms-input-placeholder {
+    font-size: 1rem;
+  }
+  .hero-section .container .coming-soon .input-wrapper input::placeholder {
+    font-size: 1rem;
+  }
+  .hero-section .container .coming-soon .input-wrapper button {
+    position: absolute;
+    top: 0;
+    right: -1rem;
+    padding: 0 2rem;
+    height: 100%;
+  }
+}
+main {
+  height: 100vh;
+}
+main header .logo {
+  width: 100px;
+  margin: 2rem;
+  cursor: pointer;
+}
+
+footer .attribution {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
